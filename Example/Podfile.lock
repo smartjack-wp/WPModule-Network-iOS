@@ -1,0 +1,16 @@
+PODS:
+  - WPModuleNetwork (0.1.0)
+
+DEPENDENCIES:
+  - WPModuleNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  WPModuleNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WPModuleNetwork: 8c1b838abb3f9602f214201acbf5215fe47864f7
+
+PODFILE CHECKSUM: 816d062aa8f15bd6062dba33ad2f8b365df37239
+
+COCOAPODS: 1.8.4

@@ -1,6 +1,6 @@
 # WPModuleNetwork
 
-[![CI Status](https://img.shields.io/travis/onemoonStudio/WPModuleNetwork.svg?style=flat)](https://travis-ci.org/onemoonStudio/WPModuleNetwork)
+[![CI Status](https://img.shields.io/travis/smartjack-wp/WPModule-Network-iOS.svg?style=flat)](https://travis-ci.org/onemoonStudio/WPModuleNetwork)
 [![Version](https://img.shields.io/cocoapods/v/WPModuleNetwork.svg?style=flat)](https://cocoapods.org/pods/WPModuleNetwork)
 [![License](https://img.shields.io/cocoapods/l/WPModuleNetwork.svg?style=flat)](https://cocoapods.org/pods/WPModuleNetwork)
 [![Platform](https://img.shields.io/cocoapods/p/WPModuleNetwork.svg?style=flat)](https://cocoapods.org/pods/WPModuleNetwork)

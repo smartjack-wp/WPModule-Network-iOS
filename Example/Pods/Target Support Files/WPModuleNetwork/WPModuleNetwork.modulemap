@@ -1,0 +1,6 @@
+framework module WPModuleNetwork {
+  umbrella header "WPModuleNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
