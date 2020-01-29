@@ -1,7 +1,7 @@
 
 import Foundation
 
-public class NewClass {
+public class TestClass {
     public func test() {
         print("good")
     }

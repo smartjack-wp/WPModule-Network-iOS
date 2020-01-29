@@ -16,7 +16,7 @@
 		B315346AC03CAD5FA75E4A8BD89E18E7 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */; };
 		BC813B18E630264687FAA9372FDABBDA /* Pods-WPModuleNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 269EAF0D6CF6F8ED25C660DD80BCA9A2 /* Pods-WPModuleNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7D2C6AD2D9AE3197B3BD3F1FA95CFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FEB0C7C523E1884600BE64D7 /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB0C7C323E1884600BE64D7 /* NewClass.swift */; };
+		FEB0C7C523E1884600BE64D7 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB0C7C323E1884600BE64D7 /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEB0C7C323E1884600BE64D7 /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewClass.swift; sourceTree = "<group>"; };
+		FEB0C7C323E1884600BE64D7 /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,7 +224,7 @@
 		FEB0C7C123E1884600BE64D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FEB0C7C323E1884600BE64D7 /* NewClass.swift */,
+				FEB0C7C323E1884600BE64D7 /* TestClass.swift */,
 			);
 			name = Classes;
 			path = WPModuleNetwork/Classes;
@@ -390,7 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB0C7C523E1884600BE64D7 /* NewClass.swift in Sources */,
+				FEB0C7C523E1884600BE64D7 /* TestClass.swift in Sources */,
 				B315346AC03CAD5FA75E4A8BD89E18E7 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
