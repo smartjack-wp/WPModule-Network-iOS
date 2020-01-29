@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WPModuleNetwork_Example' do
+  pod 'WPModuleNetwork', :path => '../'
+
+  target 'WPModuleNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
