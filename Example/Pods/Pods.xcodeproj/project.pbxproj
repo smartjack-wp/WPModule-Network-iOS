@@ -72,6 +72,7 @@
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */; };
 		F5A253370D68AC1E59A7D87EDEEF2689 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB0C7E723E264C800BE64D7 /* WPModuleNetwork-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,6 +235,7 @@
 		F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
 		FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -515,6 +517,7 @@
 			children = (
 				C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */,
 				4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */,
+				FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */,
 				23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */,
 				798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */,
 				53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */,
@@ -759,6 +762,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB0C7E723E264C800BE64D7 /* WPModuleNetwork-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
