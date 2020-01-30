@@ -20,7 +20,7 @@ public struct ServerResponse: Decodable, ServerResponseProtocol {
 }
 
 /// Common Server Response With Data
-struct ServerResponseData<T>: Decodable, ServerResponseProtocol where T: Decodable {
+public struct ServerResponseData<T>: Decodable, ServerResponseProtocol where T: Decodable {
     public let apiResultCode: Int
     public let resultMessage: String
     public let resultContents: T

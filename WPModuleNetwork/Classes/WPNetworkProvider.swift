@@ -12,20 +12,20 @@ import Result
 
 /// LabManager 에서 사용되는 공통적인 Provider Protocol 이며 공통적으로 사용되는 함수들을 정의
 public protocol WPNetworkProvider {
-    associatedtype LMTarget: WPNetworkTarget
+    associatedtype WPTarget: WPNetworkTarget
     typealias NetworkError = WPNetworkError
     // 해당 프로토콜을 채택한 Provider 는 NetworkError 네이밍을 그대로 사용할 수 있다.
     typealias DecodableServerResponse = Decodable & ServerResponseProtocol
     
     /// request를 위한 provider
     /// # provider\<Target\>(plugins: self.networkActivityPlugin) 로 생성을 하자
-    var provider: MoyaProvider<LMTarget> { get }
+    var provider: MoyaProvider<WPTarget> { get }
 }
 
 extension WPNetworkProvider {
     // MARK: - Common Property
     /// Provider 를 생성할 때 사용하는 Plugin
-    var networkActivityPlugin: PluginType {
+    public var networkActivityPlugin: PluginType {
         return NetworkActivityPlugin(networkActivityClosure: self.networkActivityClosure)
     }
     
@@ -48,7 +48,7 @@ extension WPNetworkProvider {
     /// - Parameters:
     ///   - result: provider.request 를 통해서 받은 result
     ///   - completion: 결과를 전달할 클로저
-    func resultHandler<T: DecodableServerResponse>(_ result: Result<Response, MoyaError>, completion: @escaping (Result<T, WPNetworkError>) -> Void) {
+    public func resultHandler<T: DecodableServerResponse>(_ result: Result<Response, MoyaError>, completion: @escaping (Result<T, WPNetworkError>) -> Void) {
         switch result {
         case .success(let responseData):
             // 응답이 제대로 들어온 경우
