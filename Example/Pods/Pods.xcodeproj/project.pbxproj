@@ -14,23 +14,26 @@
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE30D31B4C70C91A813E000A2E04CE /* Notifications.swift */; };
 		13A5B98D0668CF084BD5D7C84F1BA9CB /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E2F768F1990279B8EF824B662EACDF /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49ACE5E6E05C18AAB2AD2BFDFF07EC /* AnyEncodable.swift */; };
+		1611CAF9651899B6AC8C0DC7C3AF8FFF /* ServerResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC9865D2FEFE45F92ECBFE81393A99 /* ServerResponseProtocol.swift */; };
+		17636D3BF6FC8121AD5B58F1D8155AF6 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778E105AA6A9F109462188059363A997 /* MultipartFormData.swift */; };
 		1E8EA74DDA1B682BF9672C5BD881DEAC /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */; };
 		2185B0D02C9015AB6478BC4526CC0CC8 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC49A603C0B20A7921813403A2D35FC /* MoyaProvider.swift */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453E26060232EB4CA35364B83BDE10B /* SessionDelegate.swift */; };
+		2C879994BF2C577F55DA1EAF266630DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		342D82E58B4FD9A4353DDACD05E90474 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */; };
+		44E38D934A388EF2310578D10E316B66 /* WPNetworkTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D757F6EF0A2D466AE52ED850AFEA216 /* WPNetworkTarget.swift */; };
 		456986BE6E640307E83E2E3107E085DD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA01FE81B53A3C0824ACD5FA6870CFB /* Result.swift */; };
-		4EAA998FEFDEB47723862B1F0A197B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		4EB69101E8134B9B20A7E5825C141201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D358F49238669F242FF163AC27952 /* Validation.swift */; };
 		56CA98AAAD18ACED36AD5F777524B0B5 /* URLRequest+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D22B99FC4FE348EBA65133DBB10B3E /* URLRequest+Encoding.swift */; };
 		573247D5366013AA69E636D15DB77EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3AF0C94288A37CDEB03042ADF51AE /* Result.swift */; };
-		65014DB107F6BA9390C3E8139039482D /* WPModuleNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */; };
 		6516EB5517E5940A9B1983FC332499E4 /* Pods-WPModuleNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A021693526D0582647BA3CFF53BB15 /* Pods-WPModuleNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AAD9B42B02F841E09D8A4CFDCC935 /* Pods-WPModuleNetwork_Tests-dummy.m */; };
+		737D3436FBCCCAA983C6FC7EEB5F1298 /* WPModuleNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1648CFBF9C32F1058A4E43CB854F096 /* WPModuleNetwork-dummy.m */; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		7751F06445C52D5947A61179D1F3F90F /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */; };
 		79CCF1BD2D4DECC86E99F5C84EACC6E9 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */; };
@@ -38,8 +41,6 @@
 		7DDF031972B1DD3E3CDE5345EFA420C8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD51163D37EF0D69A1F58AD1112391CC /* Alamofire.framework */; };
 		80B8A3485C4803D8A17ED23FAECE11B4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC038AFEDB7291084EF6525659AC07C8 /* AFError.swift */; };
-		863BC9D7A3B9063462D0BD3842A0F1F4 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */; };
-		8FE820D9D4FB8835E5DFCDF5C2902CFF /* WPModuleNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90592ACA9632A3BDBFB6BA2788F0BD4C /* Moya+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5CE7F29E72DECAE8FB554A7892E66A /* Timeline.swift */; };
@@ -47,6 +48,7 @@
 		9A616DB087A46CCA987E52B1AAACAFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
 		A894046CED1B886969AA97CF62BD1106 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC40F44244C67BC2FD1AA408B84333 /* Result.framework */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F6DB33AEAA0E9D37DD9E96F0D744 /* TaskDelegate.swift */; };
+		B9CC93EDE4BE4D99B40B8BBDEBE99AD8 /* WPModuleNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE87EBA3AAB97CA5772B688A6A02A15 /* WPModuleNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC813B18E630264687FAA9372FDABBDA /* Pods-WPModuleNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 269EAF0D6CF6F8ED25C660DD80BCA9A2 /* Pods-WPModuleNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1809CA3201E523AD40A881BFDA7F1 /* Alamofire.swift */; };
 		C520E6BFD59B75DBDE6F2E080F54457C /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E98A74FCF5B2AD111E18F8C0FC5D37 /* Moya-dummy.m */; };
@@ -54,12 +56,13 @@
 		C92D3D665E60A3DE8D22688C326E13B1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEA2042F32084E608EDE318460B43 /* Response.swift */; };
 		C9C516BB9CA1FBAC6D2CCA14D012E4B6 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */; };
 		CB579AD7C5B14D4055AB3FB9609A7B36 /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */; };
+		D12BDB039FE09867EE532B09D7E7C6B5 /* WPNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C985B32198F7C1B9F83C1748511C1BE0 /* WPNetworkProvider.swift */; };
 		D35D525B1D39EBEE30774893AB5B3538 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */; };
 		D5771A234C9B2F2157E53C5CC1B645FE /* MultiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104B1B0B4840DDABA7BABE413FEFE5F /* MultiTarget.swift */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472B956514A44B51037581B47EBC1E6 /* Response.swift */; };
-		D8B7E3C9C19A91A0701B83F56DB8B258 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */; };
 		D91B8941A17A7F68DD28148EB275A0E6 /* AccessTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */; };
+		D93B3DF285DE5582D74112E69FFE705B /* WPNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACBB7C01C5C7E8F2EBC5BE3AF2E391 /* WPNetworkError.swift */; };
 		DA3FBC7AC20775E5994641BA3584AA1A /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B242322A9FDCF53942698D2D55F4EC6 /* Result-dummy.m */; };
 		E01A181E686C4A078654FB20EA829465 /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D61DB4D96E3F30ADF7DF8C23B8EB2E /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E31CF37CD2B93E7EAF050121CFF9E9DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
@@ -71,8 +74,8 @@
 		F090D34B08977CB72F998A52D23DEE73 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6E6CF713F43A55A1527E64E840E23 /* Plugin.swift */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */; };
 		F5A253370D68AC1E59A7D87EDEEF2689 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */; };
+		F5EFF6FBEC506CBD057D11A3D55BDE31 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37144549F1B9F40BF4D47728E95CABB2 /* ServerResponse.swift */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB0C7E723E264C800BE64D7 /* WPModuleNetwork-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +114,7 @@
 			remoteGlobalIDString = 4745F39B6755FDCB9FBD9570E6BA2774;
 			remoteInfo = "Pods-WPModuleNetwork_Example";
 		};
-		CD18A218E1D744A18DE43F82F78891D7 /* PBXContainerItemProxy */ = {
+		C004F3FE34A5240FADE6DF25934C8474 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -136,7 +139,7 @@
 
 /* Begin PBXFileReference section */
 		008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
 		131D358F49238669F242FF163AC27952 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
@@ -144,32 +147,32 @@
 		1A359D2AF63F78B31EA4F7A7BA21ED1F /* Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.debug.xcconfig; sourceTree = "<group>"; };
 		1DB1809CA3201E523AD40A881BFDA7F1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		1ECDE7FD05E4BBF5BA2F0F38A77C85F1 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
-		23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-prefix.pch"; sourceTree = "<group>"; };
 		25C6CAA492B5971794193185611ED681 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/Moya/MultipartFormData.swift; sourceTree = "<group>"; };
 		269EAF0D6CF6F8ED25C660DD80BCA9A2 /* Pods-WPModuleNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPModuleNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E1C9927AA93E43241651458F016C5F3 /* ValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationType.swift; path = Sources/Moya/ValidationType.swift; sourceTree = "<group>"; };
 		2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
 		3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
-		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACBB7C01C5C7E8F2EBC5BE3AF2E391 /* WPNetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WPNetworkError.swift; path = WPModuleNetwork/Classes/WPNetworkError.swift; sourceTree = "<group>"; };
+		37144549F1B9F40BF4D47728E95CABB2 /* ServerResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerResponse.swift; path = WPModuleNetwork/Classes/ServerResponse.swift; sourceTree = "<group>"; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Example.framework; path = "Pods-WPModuleNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3D757F6EF0A2D466AE52ED850AFEA216 /* WPNetworkTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WPNetworkTarget.swift; path = WPModuleNetwork/Classes/WPNetworkTarget.swift; sourceTree = "<group>"; };
 		44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
 		466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenPlugin.swift; path = Sources/Moya/Plugins/AccessTokenPlugin.swift; sourceTree = "<group>"; };
 		48ED4849629E6B53E7D7CCB00BD35E96 /* MoyaProvider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Internal.swift"; path = "Sources/Moya/MoyaProvider+Internal.swift"; sourceTree = "<group>"; };
-		4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPModuleNetwork-dummy.m"; sourceTree = "<group>"; };
 		4B242322A9FDCF53942698D2D55F4EC6 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		4C65E145A8AC4177BB6C6D539CEA1C6C /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
 		4C65F6DB33AEAA0E9D37DD9E96F0D744 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		4FA01FE81B53A3C0824ACD5FA6870CFB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
-		53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		53CC9865D2FEFE45F92ECBFE81393A99 /* ServerResponseProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerResponseProtocol.swift; path = WPModuleNetwork/Classes/ServerResponseProtocol.swift; sourceTree = "<group>"; };
 		5472B956514A44B51037581B47EBC1E6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D54E57B9089CAF48C3EA6EA336EC36B /* WPModuleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AAD9B42B02F841E09D8A4CFDCC935 /* Pods-WPModuleNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
-		5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.release.xcconfig; sourceTree = "<group>"; };
 		60B5421BC63BB86B1B238B3F405FDD6C /* Pods-WPModuleNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
 		6DEA3855B8F5639F526A2FCA555B8F4B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -178,64 +181,68 @@
 		73ED20540610761C4CC515C70295E046 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		76E98A74FCF5B2AD111E18F8C0FC5D37 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
 		778E105AA6A9F109462188059363A997 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-umbrella.h"; sourceTree = "<group>"; };
 		7AACEA2042F32084E608EDE318460B43 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Moya/Response.swift; sourceTree = "<group>"; };
 		7C72DF0DF0753746734CECB7DE24E847 /* Pods-WPModuleNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPModuleNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7FD6E6CF713F43A55A1527E64E840E23 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
 		819ACCE2F4436E75F4267B0B832640AE /* Moya-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-prefix.pch"; sourceTree = "<group>"; };
 		83BA3674AAAA0E4C35DFE7713BC7EFDF /* Pods-WPModuleNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPModuleNetwork_Example.modulemap"; sourceTree = "<group>"; };
 		83F3AF0C94288A37CDEB03042ADF51AE /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		857EA2A4D400EF407FF24D67B88C12D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		88F031CBA4695037387126848C852BE6 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moya.modulemap; sourceTree = "<group>"; };
 		8978699FB2883FF145427B84982F226A /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Result/AnyError.swift; sourceTree = "<group>"; };
 		8BC37547398B8DD3B0B97A57589F178B /* Result.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.release.xcconfig; sourceTree = "<group>"; };
 		8FEE5F81EA11258041A584F750C98B56 /* Pods-WPModuleNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPModuleNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90F225D214DA624A26A257D5E282778E /* Pods-WPModuleNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
 		936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Tests.framework; path = "Pods-WPModuleNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422E600A2A88053774311F7822DB0BB /* Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.release.xcconfig; sourceTree = "<group>"; };
 		9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CE87EBA3AAB97CA5772B688A6A02A15 /* WPModuleNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1065049C71258127E1F4A90C3563CD9 /* WPModuleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.release.xcconfig; sourceTree = "<group>"; };
 		A350DEBAF13B0849848F1D0A1F2EE129 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		A94A722519486E9EDC8E5ACFA5C85C21 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AE171CA38C3D5613FDDB8E4D49099B66 /* Pods-WPModuleNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-Info.plist"; sourceTree = "<group>"; };
 		B104B1B0B4840DDABA7BABE413FEFE5F /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
 		B2D22B99FC4FE348EBA65133DBB10B3E /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Encoding.swift"; path = "Sources/Moya/URLRequest+Encoding.swift"; sourceTree = "<group>"; };
-		B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestClass.swift; path = WPModuleNetwork/Classes/TestClass.swift; sourceTree = "<group>"; };
 		B5D61DB4D96E3F30ADF7DF8C23B8EB2E /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
 		BCCC40F44244C67BC2FD1AA408B84333 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD51163D37EF0D69A1F58AD1112391CC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC49A603C0B20A7921813403A2D35FC /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
+		C15E111E5AD5797C34C709A8885F6E69 /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2917F78F721E79CE763BA0009E5578B /* Pods-WPModuleNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C39DBAD076B266A8F0F9D565B4B6D6F8 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		C4CE30D31B4C70C91A813E000A2E04CE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		C6BB408FEBA8ADA906CAC93C6C7DBF42 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
 		C74CFE100B32B17C2E05D4A20AD91181 /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
 		C8DE708E270E43B4E0EAD3B0551A3924 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
-		C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPModuleNetwork.modulemap; sourceTree = "<group>"; };
+		C985B32198F7C1B9F83C1748511C1BE0 /* WPNetworkProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WPNetworkProvider.swift; path = WPModuleNetwork/Classes/WPNetworkProvider.swift; sourceTree = "<group>"; };
 		C9D72379A2A93D370508D9CF164A2CDE /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		C9E95595980F7AC8E9A067271EE835E5 /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
 		CB260987E6B8FB1323E3BB9AD2C0CD4C /* Pods-WPModuleNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB2FC16B8012B82745819D3D93C438B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CB61A7AF0E2AA14C9E9BE38476B89794 /* Result.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.debug.xcconfig; sourceTree = "<group>"; };
+		CB967C0146025E4CDEB20699A51E1387 /* WPModuleNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-prefix.pch"; sourceTree = "<group>"; };
 		CBE18A2B0E6023B0DEF1857EF3896EEE /* Pods-WPModuleNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPModuleNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC038AFEDB7291084EF6525659AC07C8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		CE7A134117FD4D66BA37D78FBD27BEB6 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
 		D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
 		D8C58F63167CA8819274164EBE01B02A /* Cancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellable.swift; path = Sources/Moya/Cancellable.swift; sourceTree = "<group>"; };
 		DC59E50E2A103C5BDF1EBCBA623C0974 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
 		DD8051D58889708E4A6ABF7C4F446042 /* Pods-WPModuleNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPModuleNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		DE0A3E6707D9C6BF918DA9BC5E6A85F6 /* WPModuleNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPModuleNetwork.modulemap; sourceTree = "<group>"; };
 		DE5CE7F29E72DECAE8FB554A7892E66A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		E15E3C7F4D7D76D4F7305C458CD645BE /* URL+Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Moya.swift"; path = "Sources/Moya/URL+Moya.swift"; sourceTree = "<group>"; };
 		E7E3FEE67CB784358D74570A8519728F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPModuleNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
 		ED7929311077EB31221FE3818F01E684 /* Pods-WPModuleNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1648CFBF9C32F1058A4E43CB854F096 /* WPModuleNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPModuleNetwork-dummy.m"; sourceTree = "<group>"; };
+		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPModuleNetwork.framework; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
 		FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,15 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		201059FCFE9D6A88D17A7DA0993F2140 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EAA998FEFDEB47723862B1F0A197B0C /* Foundation.framework in Frameworks */,
-				863BC9D7A3B9063462D0BD3842A0F1F4 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31CF37CD2B93E7EAF050121CFF9E9DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F129CD259AE5AC72077420A048006947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C879994BF2C577F55DA1EAF266630DA /* Foundation.framework in Frameworks */,
+				17636D3BF6FC8121AD5B58F1D8155AF6 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 				08C1A4A4A65318748E3006CE92E8B8CF /* Core */,
 				D831F11E2D9763C9BAA78B2C8109DE44 /* Support Files */,
 			);
+			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -390,18 +398,8 @@
 				131D358F49238669F242FF163AC27952 /* Validation.swift */,
 				FFEFBDD7E5A7AF6BC7EB74C5975EFB68 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		547F8D39624450DEAACC191B9E988ADA /* WPModuleNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */,
-				6D75D726094C53A9B361F3C3175528DB /* Pod */,
-				E5ABCC4A00E72E59753072C979B224D4 /* Support Files */,
-			);
-			name = WPModuleNetwork;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5B36518C1B30B309DD19BC4CA4A256A4 /* Pods-WPModuleNetwork_Example */ = {
@@ -430,7 +428,16 @@
 				452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */,
 				41B445D342FD73C51455B6EB70B49C6D /* Support Files */,
 			);
+			name = Result;
 			path = Result;
+			sourceTree = "<group>";
+		};
+		66FA951B57D61B06E893DDAF8F39D4B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93981332F337CC1955DC11C73B1063DA /* WPModuleNetwork */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6D1EB7BB79B11A7DC73A91082D034FE8 /* Pods */ = {
@@ -443,22 +450,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6D75D726094C53A9B361F3C3175528DB /* Pod */ = {
+		72B2C914FF9D34D1D5E67E98D292578B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */,
-				5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */,
-				D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */,
+				DE0A3E6707D9C6BF918DA9BC5E6A85F6 /* WPModuleNetwork.modulemap */,
+				F1648CFBF9C32F1058A4E43CB854F096 /* WPModuleNetwork-dummy.m */,
+				4C65E145A8AC4177BB6C6D539CEA1C6C /* WPModuleNetwork-Info.plist */,
+				CB967C0146025E4CDEB20699A51E1387 /* WPModuleNetwork-prefix.pch */,
+				9CE87EBA3AAB97CA5772B688A6A02A15 /* WPModuleNetwork-umbrella.h */,
+				5D54E57B9089CAF48C3EA6EA336EC36B /* WPModuleNetwork.debug.xcconfig */,
+				A1065049C71258127E1F4A90C3563CD9 /* WPModuleNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPModuleNetwork";
+			sourceTree = "<group>";
+		};
+		823B82BAD11290C8E8699013BD3B87F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB2FC16B8012B82745819D3D93C438B5 /* LICENSE */,
+				857EA2A4D400EF407FF24D67B88C12D2 /* README.md */,
+				C15E111E5AD5797C34C709A8885F6E69 /* WPModuleNetwork.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		72A5E3F7E9D2221A66B61D5A0661298F /* Development Pods */ = {
+		93981332F337CC1955DC11C73B1063DA /* WPModuleNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				547F8D39624450DEAACC191B9E988ADA /* WPModuleNetwork */,
+				37144549F1B9F40BF4D47728E95CABB2 /* ServerResponse.swift */,
+				53CC9865D2FEFE45F92ECBFE81393A99 /* ServerResponseProtocol.swift */,
+				36ACBB7C01C5C7E8F2EBC5BE3AF2E391 /* WPNetworkError.swift */,
+				C985B32198F7C1B9F83C1748511C1BE0 /* WPNetworkProvider.swift */,
+				3D757F6EF0A2D466AE52ED850AFEA216 /* WPNetworkTarget.swift */,
+				823B82BAD11290C8E8699013BD3B87F5 /* Pod */,
+				72B2C914FF9D34D1D5E67E98D292578B /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WPModuleNetwork;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B3EE27B13C61E48C640070AB908F9004 /* Pods-WPModuleNetwork_Tests */ = {
@@ -489,7 +518,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				72A5E3F7E9D2221A66B61D5A0661298F /* Development Pods */,
+				66FA951B57D61B06E893DDAF8F39D4B4 /* Development Pods */,
 				1173BCF99832AC8919CA32A29253B3E8 /* Frameworks */,
 				6D1EB7BB79B11A7DC73A91082D034FE8 /* Pods */,
 				EB46643F26DBC483DB74C1D55CA3B11F /* Products */,
@@ -510,21 +539,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Moya";
-			sourceTree = "<group>";
-		};
-		E5ABCC4A00E72E59753072C979B224D4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */,
-				4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */,
-				FEB0C7E623E264C800BE64D7 /* WPModuleNetwork-Info.plist */,
-				23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */,
-				798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */,
-				53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */,
-				5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WPModuleNetwork";
 			sourceTree = "<group>";
 		};
 		EB46643F26DBC483DB74C1D55CA3B11F /* Products */ = {
@@ -574,11 +588,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E59D325B7A74DC1B0E1BF0A99C87371 /* Headers */ = {
+		436A96966B95288F2E5BB9D7A17BA51A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE820D9D4FB8835E5DFCDF5C2902CFF /* WPModuleNetwork-umbrella.h in Headers */,
+				B9CC93EDE4BE4D99B40B8BBDEBE99AD8 /* WPModuleNetwork-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,17 +625,17 @@
 /* Begin PBXNativeTarget section */
 		1711A58FD8E3D108BEFD4D5918EE05BD /* WPModuleNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274B3753EA8DDEBA413D9F8A7B55B893 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */;
+			buildConfigurationList = 2F81E7451ED48AC359C43DF9726D4B81 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */;
 			buildPhases = (
-				3E59D325B7A74DC1B0E1BF0A99C87371 /* Headers */,
-				8F51EE527D985F5D3BD4214E06193DD9 /* Sources */,
-				201059FCFE9D6A88D17A7DA0993F2140 /* Frameworks */,
-				A5A33A175DCE77665269E791D6F722D5 /* Resources */,
+				436A96966B95288F2E5BB9D7A17BA51A /* Headers */,
+				647DF4AA8B4174260EA2C9C9DF04EE77 /* Sources */,
+				F129CD259AE5AC72077420A048006947 /* Frameworks */,
+				160A59317C7FAE721B09208460478BF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E575D19ED6B5E4EC285BA0FFBDC2DDFD /* PBXTargetDependency */,
+				26E15440824B89FFFA6396A3CC69B728 /* PBXTargetDependency */,
 			);
 			name = WPModuleNetwork;
 			productName = WPModuleNetwork;
@@ -758,11 +772,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		160A59317C7FAE721B09208460478BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB0C7E723E264C800BE64D7 /* WPModuleNetwork-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,13 +808,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9CF7CD531A697B60AC1E40BF5406117E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A33A175DCE77665269E791D6F722D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -867,12 +880,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F51EE527D985F5D3BD4214E06193DD9 /* Sources */ = {
+		647DF4AA8B4174260EA2C9C9DF04EE77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B7E3C9C19A91A0701B83F56DB8B258 /* TestClass.swift in Sources */,
-				65014DB107F6BA9390C3E8139039482D /* WPModuleNetwork-dummy.m in Sources */,
+				F5EFF6FBEC506CBD057D11A3D55BDE31 /* ServerResponse.swift in Sources */,
+				1611CAF9651899B6AC8C0DC7C3AF8FFF /* ServerResponseProtocol.swift in Sources */,
+				737D3436FBCCCAA983C6FC7EEB5F1298 /* WPModuleNetwork-dummy.m in Sources */,
+				D93B3DF285DE5582D74112E69FFE705B /* WPNetworkError.swift in Sources */,
+				D12BDB039FE09867EE532B09D7E7C6B5 /* WPNetworkProvider.swift in Sources */,
+				44E38D934A388EF2310578D10E316B66 /* WPNetworkTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,6 +928,12 @@
 			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
 			targetProxy = 6DF249E7BC0FB6748EE4BA4086612ABD /* PBXContainerItemProxy */;
 		};
+		26E15440824B89FFFA6396A3CC69B728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moya;
+			target = 17F9141D333DA1A7BE5937F227221070 /* Moya */;
+			targetProxy = C004F3FE34A5240FADE6DF25934C8474 /* PBXContainerItemProxy */;
+		};
 		3278EE9B1405F84B6B468B431C5A5AD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Moya;
@@ -934,12 +957,6 @@
 			name = "Pods-WPModuleNetwork_Example";
 			target = 4745F39B6755FDCB9FBD9570E6BA2774 /* Pods-WPModuleNetwork_Example */;
 			targetProxy = 91DB6852D7981185B37B9DFA4E7B46E4 /* PBXContainerItemProxy */;
-		};
-		E575D19ED6B5E4EC285BA0FFBDC2DDFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Moya;
-			target = 17F9141D333DA1A7BE5937F227221070 /* Moya */;
-			targetProxy = CD18A218E1D744A18DE43F82F78891D7 /* PBXContainerItemProxy */;
 		};
 		E902A5BA0012AFF3EBDFF4E41912A41B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -979,6 +996,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0BE3AF274DD794F8FFE1A8AD20CFE92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1065049C71258127E1F4A90C3563CD9 /* WPModuleNetwork.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
+				PRODUCT_MODULE_NAME = WPModuleNetwork;
+				PRODUCT_NAME = WPModuleNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1072,78 +1122,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		33D6424E2F7E9637AE3D25AF2DA4D4E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
-				PRODUCT_MODULE_NAME = WPModuleNetwork;
-				PRODUCT_NAME = WPModuleNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B03A8878F2FF8F68BB7FFA6085B6504 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
-				PRODUCT_MODULE_NAME = WPModuleNetwork;
-				PRODUCT_NAME = WPModuleNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5DA7154629059118190A029DB1CA8D0E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1212,6 +1196,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9B9ED1576E98276873BF2ADD26EE89C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D54E57B9089CAF48C3EA6EA336EC36B /* WPModuleNetwork.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
+				PRODUCT_MODULE_NAME = WPModuleNetwork;
+				PRODUCT_NAME = WPModuleNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C2FCDE33994CBB191FCD34324FEA88A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1489,11 +1505,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274B3753EA8DDEBA413D9F8A7B55B893 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */ = {
+		2F81E7451ED48AC359C43DF9726D4B81 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B03A8878F2FF8F68BB7FFA6085B6504 /* Debug */,
-				33D6424E2F7E9637AE3D25AF2DA4D4E0 /* Release */,
+				9B9ED1576E98276873BF2ADD26EE89C3 /* Debug */,
+				0BE3AF274DD794F8FFE1A8AD20CFE92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

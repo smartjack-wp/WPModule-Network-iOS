@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let cl = TestClass()
-        cl.test()
+        let prov = TestProvider()
+        prov.testHeaders()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,4 +24,3 @@ class ViewController: UIViewController {
     }
 
 }
-
