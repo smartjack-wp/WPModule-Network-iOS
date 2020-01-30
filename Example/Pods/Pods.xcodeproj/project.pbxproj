@@ -135,7 +135,7 @@
 
 /* Begin PBXFileReference section */
 		008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
 		131D358F49238669F242FF163AC27952 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
@@ -150,10 +150,10 @@
 		2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
 		3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
-		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Example.framework; path = "Pods-WPModuleNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
 		466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenPlugin.swift; path = Sources/Moya/Plugins/AccessTokenPlugin.swift; sourceTree = "<group>"; };
@@ -165,14 +165,13 @@
 		53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		5472B956514A44B51037581B47EBC1E6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F9AAD9B42B02F841E09D8A4CFDCC935 /* Pods-WPModuleNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
 		5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.release.xcconfig; sourceTree = "<group>"; };
 		60B5421BC63BB86B1B238B3F405FDD6C /* Pods-WPModuleNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
 		6DEA3855B8F5639F526A2FCA555B8F4B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		6E2B5B3FFA1066AE52BC9738C31C833A /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
 		6E49ACE5E6E05C18AAB2AD2BFDFF07EC /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
 		73862EC6BE2B59D736303DC7D9811E3E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		73ED20540610761C4CC515C70295E046 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
@@ -191,10 +190,10 @@
 		8FEE5F81EA11258041A584F750C98B56 /* Pods-WPModuleNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPModuleNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90F225D214DA624A26A257D5E282778E /* Pods-WPModuleNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
 		936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Tests.framework; path = "Pods-WPModuleNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422E600A2A88053774311F7822DB0BB /* Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.release.xcconfig; sourceTree = "<group>"; };
 		9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A350DEBAF13B0849848F1D0A1F2EE129 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		A94A722519486E9EDC8E5ACFA5C85C21 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AE171CA38C3D5613FDDB8E4D49099B66 /* Pods-WPModuleNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-Info.plist"; sourceTree = "<group>"; };
@@ -221,7 +220,7 @@
 		CE7A134117FD4D66BA37D78FBD27BEB6 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
 		D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
 		D8C58F63167CA8819274164EBE01B02A /* Cancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellable.swift; path = Sources/Moya/Cancellable.swift; sourceTree = "<group>"; };
 		DC59E50E2A103C5BDF1EBCBA623C0974 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
@@ -231,7 +230,7 @@
 		E7E3FEE67CB784358D74570A8519728F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPModuleNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
 		ED7929311077EB31221FE3818F01E684 /* Pods-WPModuleNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPModuleNetwork.framework; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -349,7 +348,6 @@
 				08C1A4A4A65318748E3006CE92E8B8CF /* Core */,
 				D831F11E2D9763C9BAA78B2C8109DE44 /* Support Files */,
 			);
-			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -390,7 +388,6 @@
 				131D358F49238669F242FF163AC27952 /* Validation.swift */,
 				FFEFBDD7E5A7AF6BC7EB74C5975EFB68 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -431,7 +428,6 @@
 				452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */,
 				41B445D342FD73C51455B6EB70B49C6D /* Support Files */,
 			);
-			name = Result;
 			path = Result;
 			sourceTree = "<group>";
 		};
@@ -519,7 +515,6 @@
 			children = (
 				C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */,
 				4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */,
-				6E2B5B3FFA1066AE52BC9738C31C833A /* WPModuleNetwork-Info.plist */,
 				23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */,
 				798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */,
 				53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */,
@@ -1073,8 +1068,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
