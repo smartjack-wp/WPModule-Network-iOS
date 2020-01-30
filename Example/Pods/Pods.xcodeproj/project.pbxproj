@@ -7,19 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52B256E82AED4DDE9AED96ABD9660D5C /* WPModuleNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D27F77CE24B8C50FA9337B02489CCC /* WPModuleNetwork-dummy.m */; };
-		573247D5366013AA69E636D15DB77EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0252FF16489DFF471BB6864A8A06E418 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE708E270E43B4E0EAD3B0551A3924 /* Endpoint.swift */; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D72379A2A93D370508D9CF164A2CDE /* ParameterEncoding.swift */; };
+		128D1E56E7D0AE33889C27DE819EF206 /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A134117FD4D66BA37D78FBD27BEB6 /* NetworkLoggerPlugin.swift */; };
+		12CF358D9B6EB251C35889DF475B61B8 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6CAA492B5971794193185611ED681 /* MultipartFormData.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE30D31B4C70C91A813E000A2E04CE /* Notifications.swift */; };
+		13A5B98D0668CF084BD5D7C84F1BA9CB /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13E2F768F1990279B8EF824B662EACDF /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49ACE5E6E05C18AAB2AD2BFDFF07EC /* AnyEncodable.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778E105AA6A9F109462188059363A997 /* MultipartFormData.swift */; };
+		1E8EA74DDA1B682BF9672C5BD881DEAC /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */; };
+		2185B0D02C9015AB6478BC4526CC0CC8 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC49A603C0B20A7921813403A2D35FC /* MoyaProvider.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453E26060232EB4CA35364B83BDE10B /* SessionDelegate.swift */; };
+		342D82E58B4FD9A4353DDACD05E90474 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */; };
+		456986BE6E640307E83E2E3107E085DD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA01FE81B53A3C0824ACD5FA6870CFB /* Result.swift */; };
+		4EAA998FEFDEB47723862B1F0A197B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		4EB69101E8134B9B20A7E5825C141201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D358F49238669F242FF163AC27952 /* Validation.swift */; };
+		56CA98AAAD18ACED36AD5F777524B0B5 /* URLRequest+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D22B99FC4FE348EBA65133DBB10B3E /* URLRequest+Encoding.swift */; };
+		573247D5366013AA69E636D15DB77EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3AF0C94288A37CDEB03042ADF51AE /* Result.swift */; };
+		65014DB107F6BA9390C3E8139039482D /* WPModuleNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */; };
+		6516EB5517E5940A9B1983FC332499E4 /* Pods-WPModuleNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A021693526D0582647BA3CFF53BB15 /* Pods-WPModuleNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AAD9B42B02F841E09D8A4CFDCC935 /* Pods-WPModuleNetwork_Tests-dummy.m */; };
-		76AD748F9EBC07097099530294FBCE38 /* WPModuleNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E771C8076C976B9E3F6F2A14B65830B4 /* WPModuleNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A104F60E63DCCC0C69100512F121CDBB /* Pods-WPModuleNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E12DBBA25B4EB9E8E4587B63D3312A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B315346AC03CAD5FA75E4A8BD89E18E7 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		7751F06445C52D5947A61179D1F3F90F /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */; };
+		79CCF1BD2D4DECC86E99F5C84EACC6E9 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */; };
+		7DAB935C571631C04270E7BD7A282E25 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59E50E2A103C5BDF1EBCBA623C0974 /* Task.swift */; };
+		7DDF031972B1DD3E3CDE5345EFA420C8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD51163D37EF0D69A1F58AD1112391CC /* Alamofire.framework */; };
+		80B8A3485C4803D8A17ED23FAECE11B4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC038AFEDB7291084EF6525659AC07C8 /* AFError.swift */; };
+		863BC9D7A3B9063462D0BD3842A0F1F4 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */; };
+		8FE820D9D4FB8835E5DFCDF5C2902CFF /* WPModuleNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90592ACA9632A3BDBFB6BA2788F0BD4C /* Moya+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5CE7F29E72DECAE8FB554A7892E66A /* Timeline.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A722519486E9EDC8E5ACFA5C85C21 /* Request.swift */; };
+		9A616DB087A46CCA987E52B1AAACAFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		A894046CED1B886969AA97CF62BD1106 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC40F44244C67BC2FD1AA408B84333 /* Result.framework */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F6DB33AEAA0E9D37DD9E96F0D744 /* TaskDelegate.swift */; };
 		BC813B18E630264687FAA9372FDABBDA /* Pods-WPModuleNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 269EAF0D6CF6F8ED25C660DD80BCA9A2 /* Pods-WPModuleNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7D2C6AD2D9AE3197B3BD3F1FA95CFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FEB0C7C523E1884600BE64D7 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB0C7C323E1884600BE64D7 /* TestClass.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1809CA3201E523AD40A881BFDA7F1 /* Alamofire.swift */; };
+		C520E6BFD59B75DBDE6F2E080F54457C /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E98A74FCF5B2AD111E18F8C0FC5D37 /* Moya-dummy.m */; };
+		C795F2EE4FAC71D4740DF51DC172B4B3 /* URL+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E3C7F4D7D76D4F7305C458CD645BE /* URL+Moya.swift */; };
+		C92D3D665E60A3DE8D22688C326E13B1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEA2042F32084E608EDE318460B43 /* Response.swift */; };
+		C9C516BB9CA1FBAC6D2CCA14D012E4B6 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */; };
+		CB579AD7C5B14D4055AB3FB9609A7B36 /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */; };
+		D35D525B1D39EBEE30774893AB5B3538 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */; };
+		D5771A234C9B2F2157E53C5CC1B645FE /* MultiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104B1B0B4840DDABA7BABE413FEFE5F /* MultiTarget.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472B956514A44B51037581B47EBC1E6 /* Response.swift */; };
+		D8B7E3C9C19A91A0701B83F56DB8B258 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */; };
+		D91B8941A17A7F68DD28148EB275A0E6 /* AccessTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */; };
+		DA3FBC7AC20775E5994641BA3584AA1A /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B242322A9FDCF53942698D2D55F4EC6 /* Result-dummy.m */; };
+		E01A181E686C4A078654FB20EA829465 /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D61DB4D96E3F30ADF7DF8C23B8EB2E /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31CF37CD2B93E7EAF050121CFF9E9DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73862EC6BE2B59D736303DC7D9811E3E /* ResponseSerialization.swift */; };
+		E4990EF95C457BF912DCDB35CA4447D4 /* MoyaProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED4849629E6B53E7D7CCB00BD35E96 /* MoyaProvider+Internal.swift */; };
+		E5D4DCA60999FC53771E9197E18C9F7F /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978699FB2883FF145427B84982F226A /* AnyError.swift */; };
+		EE1B0D5721427A3C61624E1EF975BCE2 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C58F63167CA8819274164EBE01B02A /* Cancellable.swift */; };
+		EE3E1A291F930C1C8E9E60150ACAF01D /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9927AA93E43241651458F016C5F3 /* ValidationType.swift */; };
+		F090D34B08977CB72F998A52D23DEE73 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6E6CF713F43A55A1527E64E840E23 /* Plugin.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */; };
+		F5A253370D68AC1E59A7D87EDEEF2689 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		58122EBB80D42CFE1EB8BB76C4A87305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F9141D333DA1A7BE5937F227221070;
+			remoteInfo = Moya;
+		};
+		6DF249E7BC0FB6748EE4BA4086612ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
+			remoteInfo = Result;
+		};
+		765CE3C696BE8F6E9CDE5C1FFCDE777C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1711A58FD8E3D108BEFD4D5918EE05BD;
+			remoteInfo = WPModuleNetwork;
+		};
+		826595B693650C0162D7B54C55FD457F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 		91DB6852D7981185B37B9DFA4E7B46E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -27,56 +110,158 @@
 			remoteGlobalIDString = 4745F39B6755FDCB9FBD9570E6BA2774;
 			remoteInfo = "Pods-WPModuleNetwork_Example";
 		};
-		C255F62AC5AB1950E13B04903C311D1A /* PBXContainerItemProxy */ = {
+		CD18A218E1D744A18DE43F82F78891D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1711A58FD8E3D108BEFD4D5918EE05BD;
-			remoteInfo = WPModuleNetwork;
+			remoteGlobalIDString = 17F9141D333DA1A7BE5937F227221070;
+			remoteInfo = Moya;
+		};
+		D95A24F9F9573634F6E0375B85FB700D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
+			remoteInfo = Result;
+		};
+		E6B40D21E157CA1D495989DE556E181A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A041836A6F86F9B13C9E8918BAD2D22 /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
+		008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
+		131D358F49238669F242FF163AC27952 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		1453E26060232EB4CA35364B83BDE10B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1A359D2AF63F78B31EA4F7A7BA21ED1F /* Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.debug.xcconfig; sourceTree = "<group>"; };
+		1DB1809CA3201E523AD40A881BFDA7F1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1ECDE7FD05E4BBF5BA2F0F38A77C85F1 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
+		23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-prefix.pch"; sourceTree = "<group>"; };
+		25C6CAA492B5971794193185611ED681 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/Moya/MultipartFormData.swift; sourceTree = "<group>"; };
 		269EAF0D6CF6F8ED25C660DD80BCA9A2 /* Pods-WPModuleNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPModuleNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		291F94B1CA8820D838CC51E23E2F8212 /* WPModuleNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPModuleNetwork.modulemap; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1C9927AA93E43241651458F016C5F3 /* ValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationType.swift; path = Sources/Moya/ValidationType.swift; sourceTree = "<group>"; };
+		2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
+		3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
+		33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Example.framework; path = "Pods-WPModuleNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
+		466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenPlugin.swift; path = Sources/Moya/Plugins/AccessTokenPlugin.swift; sourceTree = "<group>"; };
+		48ED4849629E6B53E7D7CCB00BD35E96 /* MoyaProvider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Internal.swift"; path = "Sources/Moya/MoyaProvider+Internal.swift"; sourceTree = "<group>"; };
+		4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPModuleNetwork-dummy.m"; sourceTree = "<group>"; };
+		4B242322A9FDCF53942698D2D55F4EC6 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		4C65F6DB33AEAA0E9D37DD9E96F0D744 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		4FA01FE81B53A3C0824ACD5FA6870CFB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		5472B956514A44B51037581B47EBC1E6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5F9AAD9B42B02F841E09D8A4CFDCC935 /* Pods-WPModuleNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.release.xcconfig; sourceTree = "<group>"; };
 		60B5421BC63BB86B1B238B3F405FDD6C /* Pods-WPModuleNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6597B12C611BC14B1902FC7BC1176860 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
+		6DEA3855B8F5639F526A2FCA555B8F4B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		6E2B5B3FFA1066AE52BC9738C31C833A /* WPModuleNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPModuleNetwork-Info.plist"; sourceTree = "<group>"; };
+		6E49ACE5E6E05C18AAB2AD2BFDFF07EC /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
+		73862EC6BE2B59D736303DC7D9811E3E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		73ED20540610761C4CC515C70295E046 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		76E98A74FCF5B2AD111E18F8C0FC5D37 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
+		778E105AA6A9F109462188059363A997 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-umbrella.h"; sourceTree = "<group>"; };
+		7AACEA2042F32084E608EDE318460B43 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Moya/Response.swift; sourceTree = "<group>"; };
 		7C72DF0DF0753746734CECB7DE24E847 /* Pods-WPModuleNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPModuleNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7E92355A519E73CDE04E3DFB91B63653 /* WPModuleNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPModuleNetwork.xcconfig; sourceTree = "<group>"; };
+		7FD6E6CF713F43A55A1527E64E840E23 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
+		819ACCE2F4436E75F4267B0B832640AE /* Moya-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-prefix.pch"; sourceTree = "<group>"; };
 		83BA3674AAAA0E4C35DFE7713BC7EFDF /* Pods-WPModuleNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPModuleNetwork_Example.modulemap"; sourceTree = "<group>"; };
+		83F3AF0C94288A37CDEB03042ADF51AE /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		88F031CBA4695037387126848C852BE6 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moya.modulemap; sourceTree = "<group>"; };
+		8978699FB2883FF145427B84982F226A /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Result/AnyError.swift; sourceTree = "<group>"; };
+		8BC37547398B8DD3B0B97A57589F178B /* Result.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.release.xcconfig; sourceTree = "<group>"; };
 		8FEE5F81EA11258041A584F750C98B56 /* Pods-WPModuleNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPModuleNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90F225D214DA624A26A257D5E282778E /* Pods-WPModuleNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
-		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPModuleNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPModuleNetwork_Tests.framework; path = "Pods-WPModuleNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422E600A2A88053774311F7822DB0BB /* Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.release.xcconfig; sourceTree = "<group>"; };
 		9889AC7A4081CA3A6ADBCE34A967BF0C /* Pods-WPModuleNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPModuleNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABBF68741A20B3F9CBAD3567030D88EA /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A350DEBAF13B0849848F1D0A1F2EE129 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		A94A722519486E9EDC8E5ACFA5C85C21 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AE171CA38C3D5613FDDB8E4D49099B66 /* Pods-WPModuleNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Example-Info.plist"; sourceTree = "<group>"; };
-		B5D27F77CE24B8C50FA9337B02489CCC /* WPModuleNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPModuleNetwork-dummy.m"; sourceTree = "<group>"; };
+		B104B1B0B4840DDABA7BABE413FEFE5F /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
+		B2D22B99FC4FE348EBA65133DBB10B3E /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Encoding.swift"; path = "Sources/Moya/URLRequest+Encoding.swift"; sourceTree = "<group>"; };
+		B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestClass.swift; path = WPModuleNetwork/Classes/TestClass.swift; sourceTree = "<group>"; };
+		B5D61DB4D96E3F30ADF7DF8C23B8EB2E /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
+		BCCC40F44244C67BC2FD1AA408B84333 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD51163D37EF0D69A1F58AD1112391CC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC49A603C0B20A7921813403A2D35FC /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
 		C2917F78F721E79CE763BA0009E5578B /* Pods-WPModuleNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C39DBAD076B266A8F0F9D565B4B6D6F8 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		C4CE30D31B4C70C91A813E000A2E04CE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C6BB408FEBA8ADA906CAC93C6C7DBF42 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
+		C74CFE100B32B17C2E05D4A20AD91181 /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
+		C8DE708E270E43B4E0EAD3B0551A3924 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
+		C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPModuleNetwork.modulemap; sourceTree = "<group>"; };
+		C9D72379A2A93D370508D9CF164A2CDE /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C9E95595980F7AC8E9A067271EE835E5 /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
 		CB260987E6B8FB1323E3BB9AD2C0CD4C /* Pods-WPModuleNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPModuleNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB61A7AF0E2AA14C9E9BE38476B89794 /* Result.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.debug.xcconfig; sourceTree = "<group>"; };
 		CBE18A2B0E6023B0DEF1857EF3896EEE /* Pods-WPModuleNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPModuleNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD9E21DCDDF41625D5E8EEDA14EB0BB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D9A8CC38E2F2EFACECFD4E1841B7B920 /* WPModuleNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-prefix.pch"; sourceTree = "<group>"; };
+		CC038AFEDB7291084EF6525659AC07C8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		CE7A134117FD4D66BA37D78FBD27BEB6 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
+		D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
+		D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPModuleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
+		D8C58F63167CA8819274164EBE01B02A /* Cancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellable.swift; path = Sources/Moya/Cancellable.swift; sourceTree = "<group>"; };
+		DC59E50E2A103C5BDF1EBCBA623C0974 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
 		DD8051D58889708E4A6ABF7C4F446042 /* Pods-WPModuleNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPModuleNetwork_Tests.modulemap"; sourceTree = "<group>"; };
-		E771C8076C976B9E3F6F2A14B65830B4 /* WPModuleNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPModuleNetwork-umbrella.h"; sourceTree = "<group>"; };
+		DE5CE7F29E72DECAE8FB554A7892E66A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		E15E3C7F4D7D76D4F7305C458CD645BE /* URL+Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Moya.swift"; path = "Sources/Moya/URL+Moya.swift"; sourceTree = "<group>"; };
+		E7E3FEE67CB784358D74570A8519728F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		E870E4DB8BA2C0B550B483B6827716E5 /* Pods-WPModuleNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPModuleNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
 		ED7929311077EB31221FE3818F01E684 /* Pods-WPModuleNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPModuleNetwork.framework; path = WPModuleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPModuleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEB0C7C323E1884600BE64D7 /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
+		FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B725680053CDB8E6546DACF1878275B /* Frameworks */ = {
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D2C6AD2D9AE3197B3BD3F1FA95CFA5 /* Foundation.framework in Frameworks */,
+				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201059FCFE9D6A88D17A7DA0993F2140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAA998FEFDEB47723862B1F0A197B0C /* Foundation.framework in Frameworks */,
+				863BC9D7A3B9063462D0BD3842A0F1F4 /* Moya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39951F611A17D301F81E1867A83425EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A616DB087A46CCA987E52B1AAACAFB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,17 +273,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51ADBAC3F7AB9180417C3F15C0B7E72 /* Frameworks */ = {
+		8392A663485C781AB1AFB60F8EAF3CEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E12DBBA25B4EB9E8E4587B63D3312A /* Foundation.framework in Frameworks */,
+				7DDF031972B1DD3E3CDE5345EFA420C8 /* Alamofire.framework in Frameworks */,
+				4EB69101E8134B9B20A7E5825C141201 /* Foundation.framework in Frameworks */,
+				A894046CED1B886969AA97CF62BD1106 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C311409D05D55DE58FBD0CE0B6C908C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31CF37CD2B93E7EAF050121CFF9E9DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C1A4A4A65318748E3006CE92E8B8CF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				466C2B454123ED93EE2D8AA5DDB9F459 /* AccessTokenPlugin.swift */,
+				6E49ACE5E6E05C18AAB2AD2BFDFF07EC /* AnyEncodable.swift */,
+				D8C58F63167CA8819274164EBE01B02A /* Cancellable.swift */,
+				3214A3198953A31DEDF5FED423B5BAD0 /* CredentialsPlugin.swift */,
+				C8DE708E270E43B4E0EAD3B0551A3924 /* Endpoint.swift */,
+				FEE80F0E134D1CE864B0BBE9D21B35BA /* Image.swift */,
+				6BD33DE04C71CAB7AE1E69D000ADFE96 /* Moya+Alamofire.swift */,
+				F6BF96ED806C1510D8DAEAD33E826207 /* MoyaError.swift */,
+				BDC49A603C0B20A7921813403A2D35FC /* MoyaProvider.swift */,
+				D03E32447BB22DDF04D6A30776C41C6A /* MoyaProvider+Defaults.swift */,
+				48ED4849629E6B53E7D7CCB00BD35E96 /* MoyaProvider+Internal.swift */,
+				25C6CAA492B5971794193185611ED681 /* MultipartFormData.swift */,
+				B104B1B0B4840DDABA7BABE413FEFE5F /* MultiTarget.swift */,
+				D84FBEDE491B80EACB4CD2DC2CDAB1CA /* NetworkActivityPlugin.swift */,
+				CE7A134117FD4D66BA37D78FBD27BEB6 /* NetworkLoggerPlugin.swift */,
+				7FD6E6CF713F43A55A1527E64E840E23 /* Plugin.swift */,
+				7AACEA2042F32084E608EDE318460B43 /* Response.swift */,
+				2E3662C61F8A8E1EB6256F21FA01F961 /* TargetType.swift */,
+				DC59E50E2A103C5BDF1EBCBA623C0974 /* Task.swift */,
+				E15E3C7F4D7D76D4F7305C458CD645BE /* URL+Moya.swift */,
+				B2D22B99FC4FE348EBA65133DBB10B3E /* URLRequest+Encoding.swift */,
+				2E1C9927AA93E43241651458F016C5F3 /* ValidationType.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1173BCF99832AC8919CA32A29253B3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD51163D37EF0D69A1F58AD1112391CC /* Alamofire.framework */,
+				008A641F0689F2BA9D6BB1426CF35562 /* Moya.framework */,
+				BCCC40F44244C67BC2FD1AA408B84333 /* Result.framework */,
+				BEE4749011C759090DD98C0A75DF8554 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		317A78EEF9D8EBF697DEAB5A5F20BB28 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +341,68 @@
 				B3EE27B13C61E48C640070AB908F9004 /* Pods-WPModuleNetwork_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39F49181094AC940B6B3ADEE12645D62 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				08C1A4A4A65318748E3006CE92E8B8CF /* Core */,
+				D831F11E2D9763C9BAA78B2C8109DE44 /* Support Files */,
+			);
+			name = Moya;
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		41B445D342FD73C51455B6EB70B49C6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BB408FEBA8ADA906CAC93C6C7DBF42 /* Result.modulemap */,
+				4B242322A9FDCF53942698D2D55F4EC6 /* Result-dummy.m */,
+				C9E95595980F7AC8E9A067271EE835E5 /* Result-Info.plist */,
+				1ECDE7FD05E4BBF5BA2F0F38A77C85F1 /* Result-prefix.pch */,
+				33B3005212BD81D3498ACE092CA5C0AE /* Result-umbrella.h */,
+				CB61A7AF0E2AA14C9E9BE38476B89794 /* Result.debug.xcconfig */,
+				8BC37547398B8DD3B0B97A57589F178B /* Result.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Result";
+			sourceTree = "<group>";
+		};
+		48592D5AE9887E768D664187D9A2907F /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				CC038AFEDB7291084EF6525659AC07C8 /* AFError.swift */,
+				1DB1809CA3201E523AD40A881BFDA7F1 /* Alamofire.swift */,
+				44FDAB993FD83CFC1AD172BCBA4663AB /* DispatchQueue+Alamofire.swift */,
+				778E105AA6A9F109462188059363A997 /* MultipartFormData.swift */,
+				0652377D57F5E8906B635841ADC4FF17 /* NetworkReachabilityManager.swift */,
+				C4CE30D31B4C70C91A813E000A2E04CE /* Notifications.swift */,
+				C9D72379A2A93D370508D9CF164A2CDE /* ParameterEncoding.swift */,
+				A94A722519486E9EDC8E5ACFA5C85C21 /* Request.swift */,
+				5472B956514A44B51037581B47EBC1E6 /* Response.swift */,
+				73862EC6BE2B59D736303DC7D9811E3E /* ResponseSerialization.swift */,
+				83F3AF0C94288A37CDEB03042ADF51AE /* Result.swift */,
+				56B204A226C91ED06801DD1DF275CAD5 /* ServerTrustPolicy.swift */,
+				1453E26060232EB4CA35364B83BDE10B /* SessionDelegate.swift */,
+				FF11A583000BEF1E788CFC9127EA3FE3 /* SessionManager.swift */,
+				4C65F6DB33AEAA0E9D37DD9E96F0D744 /* TaskDelegate.swift */,
+				DE5CE7F29E72DECAE8FB554A7892E66A /* Timeline.swift */,
+				131D358F49238669F242FF163AC27952 /* Validation.swift */,
+				FFEFBDD7E5A7AF6BC7EB74C5975EFB68 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		547F8D39624450DEAACC191B9E988ADA /* WPModuleNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B533DF3B56CA9236EEA5F80F2B918BF9 /* TestClass.swift */,
+				6D75D726094C53A9B361F3C3175528DB /* Pod */,
+				E5ABCC4A00E72E59753072C979B224D4 /* Support Files */,
+			);
+			name = WPModuleNetwork;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5B36518C1B30B309DD19BC4CA4A256A4 /* Pods-WPModuleNetwork_Example */ = {
@@ -125,46 +422,45 @@
 			path = "Target Support Files/Pods-WPModuleNetwork_Example";
 			sourceTree = "<group>";
 		};
-		60C09D6926FB12777475B4C56016AEAB /* Support Files */ = {
+		5D93614D3095C4CB12838AF7F80DD020 /* Result */ = {
 			isa = PBXGroup;
 			children = (
-				291F94B1CA8820D838CC51E23E2F8212 /* WPModuleNetwork.modulemap */,
-				7E92355A519E73CDE04E3DFB91B63653 /* WPModuleNetwork.xcconfig */,
-				B5D27F77CE24B8C50FA9337B02489CCC /* WPModuleNetwork-dummy.m */,
-				1A041836A6F86F9B13C9E8918BAD2D22 /* WPModuleNetwork-Info.plist */,
-				D9A8CC38E2F2EFACECFD4E1841B7B920 /* WPModuleNetwork-prefix.pch */,
-				E771C8076C976B9E3F6F2A14B65830B4 /* WPModuleNetwork-umbrella.h */,
+				8978699FB2883FF145427B84982F226A /* AnyError.swift */,
+				0ECB6873F7C8C46E4CC2CFDD4E9629F7 /* NoError.swift */,
+				4FA01FE81B53A3C0824ACD5FA6870CFB /* Result.swift */,
+				452EB038BA9526493849688FD4C03229 /* ResultProtocol.swift */,
+				41B445D342FD73C51455B6EB70B49C6D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WPModuleNetwork";
+			name = Result;
+			path = Result;
+			sourceTree = "<group>";
+		};
+		6D1EB7BB79B11A7DC73A91082D034FE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48592D5AE9887E768D664187D9A2907F /* Alamofire */,
+				39F49181094AC940B6B3ADEE12645D62 /* Moya */,
+				5D93614D3095C4CB12838AF7F80DD020 /* Result */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D75D726094C53A9B361F3C3175528DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DFFA1E224A25127A3E20542CBDB0DCF /* LICENSE */,
+				5EBF06B0B4C37E1E1A4AEAA44A089FD6 /* README.md */,
+				D3FAC1335C1CE8A535EC53D1038C2F34 /* WPModuleNetwork.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		72A5E3F7E9D2221A66B61D5A0661298F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EECFE7A86294F9C8CE897A0E6FF72178 /* WPModuleNetwork */,
+				547F8D39624450DEAACC191B9E988ADA /* WPModuleNetwork */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9BFD6A54E7DFDA08FFDB3672ACB8CE06 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6597B12C611BC14B1902FC7BC1176860 /* LICENSE */,
-				CD9E21DCDDF41625D5E8EEDA14EB0BB8 /* README.md */,
-				ABBF68741A20B3F9CBAD3567030D88EA /* WPModuleNetwork.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AC1B2D23CBCEAEA1E32CD4B67973A867 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */,
-				93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */,
-				F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B3EE27B13C61E48C640070AB908F9004 /* Pods-WPModuleNetwork_Tests */ = {
@@ -183,10 +479,10 @@
 			path = "Target Support Files/Pods-WPModuleNetwork_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BEE4749011C759090DD98C0A75DF8554 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				3BA0A89813CA2813A4B102B34B0E4186 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,56 +492,111 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				72A5E3F7E9D2221A66B61D5A0661298F /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AC1B2D23CBCEAEA1E32CD4B67973A867 /* Products */,
+				1173BCF99832AC8919CA32A29253B3E8 /* Frameworks */,
+				6D1EB7BB79B11A7DC73A91082D034FE8 /* Pods */,
+				EB46643F26DBC483DB74C1D55CA3B11F /* Products */,
 				317A78EEF9D8EBF697DEAB5A5F20BB28 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D831F11E2D9763C9BAA78B2C8109DE44 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				88F031CBA4695037387126848C852BE6 /* Moya.modulemap */,
+				76E98A74FCF5B2AD111E18F8C0FC5D37 /* Moya-dummy.m */,
+				C74CFE100B32B17C2E05D4A20AD91181 /* Moya-Info.plist */,
+				819ACCE2F4436E75F4267B0B832640AE /* Moya-prefix.pch */,
+				B5D61DB4D96E3F30ADF7DF8C23B8EB2E /* Moya-umbrella.h */,
+				1A359D2AF63F78B31EA4F7A7BA21ED1F /* Moya.debug.xcconfig */,
+				9422E600A2A88053774311F7822DB0BB /* Moya.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Moya";
 			sourceTree = "<group>";
 		};
-		EECFE7A86294F9C8CE897A0E6FF72178 /* WPModuleNetwork */ = {
+		E5ABCC4A00E72E59753072C979B224D4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FEB0C7C123E1884600BE64D7 /* Classes */,
-				9BFD6A54E7DFDA08FFDB3672ACB8CE06 /* Pod */,
-				60C09D6926FB12777475B4C56016AEAB /* Support Files */,
+				C9C64595F8A06DECD2A9EA250BB1432F /* WPModuleNetwork.modulemap */,
+				4B0E2F9B10812775934960CD5C97F367 /* WPModuleNetwork-dummy.m */,
+				6E2B5B3FFA1066AE52BC9738C31C833A /* WPModuleNetwork-Info.plist */,
+				23649A9B99B0F0668A42284618865AAB /* WPModuleNetwork-prefix.pch */,
+				798740745C97EA748B55551FD523ED5B /* WPModuleNetwork-umbrella.h */,
+				53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */,
+				5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */,
 			);
-			name = WPModuleNetwork;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPModuleNetwork";
 			sourceTree = "<group>";
 		};
-		FEB0C7C123E1884600BE64D7 /* Classes */ = {
+		EB46643F26DBC483DB74C1D55CA3B11F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEB0C7C323E1884600BE64D7 /* TestClass.swift */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
+				3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */,
+				93D9ACA65DB3FB1B33B3865A8F0238EC /* Pods_WPModuleNetwork_Tests.framework */,
+				0461B3F80FC05957690727254D64DB36 /* Result.framework */,
+				F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */,
 			);
-			name = Classes;
-			path = WPModuleNetwork/Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEFBDD7E5A7AF6BC7EB74C5975EFB68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA3855B8F5639F526A2FCA555B8F4B /* Alamofire.modulemap */,
+				D3A25EA38530364A8D2F3682A8AEBA3A /* Alamofire-dummy.m */,
+				C39DBAD076B266A8F0F9D565B4B6D6F8 /* Alamofire-Info.plist */,
+				E7E3FEE67CB784358D74570A8519728F /* Alamofire-prefix.pch */,
+				936CB93AC3FAB2C7819332A34C026103 /* Alamofire-umbrella.h */,
+				A350DEBAF13B0849848F1D0A1F2EE129 /* Alamofire.debug.xcconfig */,
+				73ED20540610761C4CC515C70295E046 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C7F664B3A663AF9F56AC8E9F2B36ACD /* Headers */ = {
+		203D890C8AB2B77CD0C6A4FDF2250870 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AD748F9EBC07097099530294FBCE38 /* WPModuleNetwork-umbrella.h in Headers */,
+				E01A181E686C4A078654FB20EA829465 /* Moya-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C3182355CA8F058612F06C4C768F9CE /* Headers */ = {
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A104F60E63DCCC0C69100512F121CDBB /* Pods-WPModuleNetwork_Example-umbrella.h in Headers */,
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E59D325B7A74DC1B0E1BF0A99C87371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE820D9D4FB8835E5DFCDF5C2902CFF /* WPModuleNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661F6AD4F09E6D6F8DC4020516879B40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6516EB5517E5940A9B1983FC332499E4 /* Pods-WPModuleNetwork_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A487884335F8D8C01FC60AC800653284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5B98D0668CF084BD5D7C84F1BA9CB /* Result-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,20 +613,41 @@
 /* Begin PBXNativeTarget section */
 		1711A58FD8E3D108BEFD4D5918EE05BD /* WPModuleNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C39F2B7990D8784F29EA22E1C58A4455 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */;
+			buildConfigurationList = 274B3753EA8DDEBA413D9F8A7B55B893 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */;
 			buildPhases = (
-				1C7F664B3A663AF9F56AC8E9F2B36ACD /* Headers */,
-				AAB983B172B829889D27F554C986F219 /* Sources */,
-				A51ADBAC3F7AB9180417C3F15C0B7E72 /* Frameworks */,
-				102D9485C2A3A6D597401F2B463D04CE /* Resources */,
+				3E59D325B7A74DC1B0E1BF0A99C87371 /* Headers */,
+				8F51EE527D985F5D3BD4214E06193DD9 /* Sources */,
+				201059FCFE9D6A88D17A7DA0993F2140 /* Frameworks */,
+				A5A33A175DCE77665269E791D6F722D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E575D19ED6B5E4EC285BA0FFBDC2DDFD /* PBXTargetDependency */,
 			);
 			name = WPModuleNetwork;
 			productName = WPModuleNetwork;
 			productReference = F2B80DF439C9C4003D8BAA5F75642AF8 /* WPModuleNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17F9141D333DA1A7BE5937F227221070 /* Moya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949B9916B267516F95BF1DD7F61D779A /* Build configuration list for PBXNativeTarget "Moya" */;
+			buildPhases = (
+				203D890C8AB2B77CD0C6A4FDF2250870 /* Headers */,
+				5DFA40E34939B60661034C5F68A98057 /* Sources */,
+				8392A663485C781AB1AFB60F8EAF3CEB /* Frameworks */,
+				8A845E8EEDB365B9753F734A10C70F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027A60808ACAC84AA9B33C6F9512B71C /* PBXTargetDependency */,
+				3696583998C87071DCDBC520A8FB154D /* PBXTargetDependency */,
+			);
+			name = Moya;
+			productName = Moya;
+			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		20CB4DFC00FEC33651A4A3E8166BDA5A /* Pods-WPModuleNetwork_Tests */ = {
@@ -299,21 +671,60 @@
 		};
 		4745F39B6755FDCB9FBD9570E6BA2774 /* Pods-WPModuleNetwork_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBBC4F3546A1F0D3FB427466E789A59D /* Build configuration list for PBXNativeTarget "Pods-WPModuleNetwork_Example" */;
+			buildConfigurationList = 44660A171DBA1DB3BB008E6C53B844F2 /* Build configuration list for PBXNativeTarget "Pods-WPModuleNetwork_Example" */;
 			buildPhases = (
-				7C3182355CA8F058612F06C4C768F9CE /* Headers */,
-				E5D3AF42E8A2B519F40DA73A33BE89A1 /* Sources */,
-				0B725680053CDB8E6546DACF1878275B /* Frameworks */,
-				0877F3EDD68E0A341DFA178B25F23CF8 /* Resources */,
+				661F6AD4F09E6D6F8DC4020516879B40 /* Headers */,
+				1DD9B8502D008030B06808E754404C25 /* Sources */,
+				C311409D05D55DE58FBD0CE0B6C908C8 /* Frameworks */,
+				9789876640DC5C21F40B9D355131BE2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB4DEE8AEEE567B3BA4AEC9357790924 /* PBXTargetDependency */,
+				E902A5BA0012AFF3EBDFF4E41912A41B /* PBXTargetDependency */,
+				3278EE9B1405F84B6B468B431C5A5AD3 /* PBXTargetDependency */,
+				092B30FCEFB0E2FE8A89B9234F23C299 /* PBXTargetDependency */,
+				B01D0F34FA04EC6B16D0E3396B491138 /* PBXTargetDependency */,
 			);
 			name = "Pods-WPModuleNetwork_Example";
 			productName = "Pods-WPModuleNetwork_Example";
 			productReference = 3A0C1B5DF5E26355B49AAAB2AF0452B4 /* Pods_WPModuleNetwork_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E163AC315AD24CFBD60C178D602BFC83 /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C95D851FC08F433A945F5BB71836FF3 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				A487884335F8D8C01FC60AC800653284 /* Headers */,
+				E0166976F9755EE5F4A5A483FDAFF87A /* Sources */,
+				39951F611A17D301F81E1867A83425EE /* Frameworks */,
+				5433007A9991F237F19C84595DA489A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Result;
+			productName = Result;
+			productReference = 0461B3F80FC05957690727254D64DB36 /* Result.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,26 +745,43 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AC1B2D23CBCEAEA1E32CD4B67973A867 /* Products */;
+			productRefGroup = EB46643F26DBC483DB74C1D55CA3B11F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				17F9141D333DA1A7BE5937F227221070 /* Moya */,
 				4745F39B6755FDCB9FBD9570E6BA2774 /* Pods-WPModuleNetwork_Example */,
 				20CB4DFC00FEC33651A4A3E8166BDA5A /* Pods-WPModuleNetwork_Tests */,
+				E163AC315AD24CFBD60C178D602BFC83 /* Result */,
 				1711A58FD8E3D108BEFD4D5918EE05BD /* WPModuleNetwork */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0877F3EDD68E0A341DFA178B25F23CF8 /* Resources */ = {
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		102D9485C2A3A6D597401F2B463D04CE /* Resources */ = {
+		5433007A9991F237F19C84595DA489A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A845E8EEDB365B9753F734A10C70F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789876640DC5C21F40B9D355131BE2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,14 +795,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5A33A175DCE77665269E791D6F722D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AAB983B172B829889D27F554C986F219 /* Sources */ = {
+		1DD9B8502D008030B06808E754404C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B256E82AED4DDE9AED96ABD9660D5C /* WPModuleNetwork-dummy.m in Sources */,
+				79CCF1BD2D4DECC86E99F5C84EACC6E9 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFA40E34939B60661034C5F68A98057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B8941A17A7F68DD28148EB275A0E6 /* AccessTokenPlugin.swift in Sources */,
+				13E2F768F1990279B8EF824B662EACDF /* AnyEncodable.swift in Sources */,
+				EE1B0D5721427A3C61624E1EF975BCE2 /* Cancellable.swift in Sources */,
+				F5A253370D68AC1E59A7D87EDEEF2689 /* CredentialsPlugin.swift in Sources */,
+				0252FF16489DFF471BB6864A8A06E418 /* Endpoint.swift in Sources */,
+				80B8A3485C4803D8A17ED23FAECE11B4 /* Image.swift in Sources */,
+				90592ACA9632A3BDBFB6BA2788F0BD4C /* Moya+Alamofire.swift in Sources */,
+				C520E6BFD59B75DBDE6F2E080F54457C /* Moya-dummy.m in Sources */,
+				C9C516BB9CA1FBAC6D2CCA14D012E4B6 /* MoyaError.swift in Sources */,
+				CB579AD7C5B14D4055AB3FB9609A7B36 /* MoyaProvider+Defaults.swift in Sources */,
+				E4990EF95C457BF912DCDB35CA4447D4 /* MoyaProvider+Internal.swift in Sources */,
+				2185B0D02C9015AB6478BC4526CC0CC8 /* MoyaProvider.swift in Sources */,
+				12CF358D9B6EB251C35889DF475B61B8 /* MultipartFormData.swift in Sources */,
+				D5771A234C9B2F2157E53C5CC1B645FE /* MultiTarget.swift in Sources */,
+				7751F06445C52D5947A61179D1F3F90F /* NetworkActivityPlugin.swift in Sources */,
+				128D1E56E7D0AE33889C27DE819EF206 /* NetworkLoggerPlugin.swift in Sources */,
+				F090D34B08977CB72F998A52D23DEE73 /* Plugin.swift in Sources */,
+				C92D3D665E60A3DE8D22688C326E13B1 /* Response.swift in Sources */,
+				1E8EA74DDA1B682BF9672C5BD881DEAC /* TargetType.swift in Sources */,
+				7DAB935C571631C04270E7BD7A282E25 /* Task.swift in Sources */,
+				C795F2EE4FAC71D4740DF51DC172B4B3 /* URL+Moya.swift in Sources */,
+				56CA98AAAD18ACED36AD5F777524B0B5 /* URLRequest+Encoding.swift in Sources */,
+				EE3E1A291F930C1C8E9E60150ACAF01D /* ValidationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51EE527D985F5D3BD4214E06193DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7E3C9C19A91A0701B83F56DB8B258 /* TestClass.swift in Sources */,
+				65014DB107F6BA9390C3E8139039482D /* WPModuleNetwork-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,38 +885,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D3AF42E8A2B519F40DA73A33BE89A1 /* Sources */ = {
+		E0166976F9755EE5F4A5A483FDAFF87A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB0C7C523E1884600BE64D7 /* TestClass.swift in Sources */,
-				B315346AC03CAD5FA75E4A8BD89E18E7 /* Pods-WPModuleNetwork_Example-dummy.m in Sources */,
+				E5D4DCA60999FC53771E9197E18C9F7F /* AnyError.swift in Sources */,
+				D35D525B1D39EBEE30774893AB5B3538 /* NoError.swift in Sources */,
+				DA3FBC7AC20775E5994641BA3584AA1A /* Result-dummy.m in Sources */,
+				456986BE6E640307E83E2E3107E085DD /* Result.swift in Sources */,
+				342D82E58B4FD9A4353DDACD05E90474 /* ResultProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		027A60808ACAC84AA9B33C6F9512B71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 826595B693650C0162D7B54C55FD457F /* PBXContainerItemProxy */;
+		};
+		092B30FCEFB0E2FE8A89B9234F23C299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
+			targetProxy = 6DF249E7BC0FB6748EE4BA4086612ABD /* PBXContainerItemProxy */;
+		};
+		3278EE9B1405F84B6B468B431C5A5AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moya;
+			target = 17F9141D333DA1A7BE5937F227221070 /* Moya */;
+			targetProxy = 58122EBB80D42CFE1EB8BB76C4A87305 /* PBXContainerItemProxy */;
+		};
+		3696583998C87071DCDBC520A8FB154D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
+			targetProxy = D95A24F9F9573634F6E0375B85FB700D /* PBXContainerItemProxy */;
+		};
+		B01D0F34FA04EC6B16D0E3396B491138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPModuleNetwork;
+			target = 1711A58FD8E3D108BEFD4D5918EE05BD /* WPModuleNetwork */;
+			targetProxy = 765CE3C696BE8F6E9CDE5C1FFCDE777C /* PBXContainerItemProxy */;
+		};
 		D7AC5C0EEEBEF71B2FB8B68269BE6785 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WPModuleNetwork_Example";
 			target = 4745F39B6755FDCB9FBD9570E6BA2774 /* Pods-WPModuleNetwork_Example */;
 			targetProxy = 91DB6852D7981185B37B9DFA4E7B46E4 /* PBXContainerItemProxy */;
 		};
-		DB4DEE8AEEE567B3BA4AEC9357790924 /* PBXTargetDependency */ = {
+		E575D19ED6B5E4EC285BA0FFBDC2DDFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WPModuleNetwork;
-			target = 1711A58FD8E3D108BEFD4D5918EE05BD /* WPModuleNetwork */;
-			targetProxy = C255F62AC5AB1950E13B04903C311D1A /* PBXContainerItemProxy */;
+			name = Moya;
+			target = 17F9141D333DA1A7BE5937F227221070 /* Moya */;
+			targetProxy = CD18A218E1D744A18DE43F82F78891D7 /* PBXContainerItemProxy */;
+		};
+		E902A5BA0012AFF3EBDFF4E41912A41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = E6B40D21E157CA1D495989DE556E181A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0199E36DDF17BC824DF8F23D31B36D01 /* Release */ = {
+		02D3B91C28828F3D695B265C7145D18A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDD7653225F7F32236D765D3CF57600E /* Pods-WPModuleNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -429,7 +969,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example.modulemap";
@@ -447,11 +987,11 @@
 			};
 			name = Release;
 		};
-		58EED532E4E003FEA7FB889B3B7C002F /* Release */ = {
+		0C56BF9E3CED6DD890C44813E3CA1FE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED7929311077EB31221FE3818F01E684 /* Pods-WPModuleNetwork_Tests.release.xcconfig */;
+			baseConfigurationReference = 8BC37547398B8DD3B0B97A57589F178B /* Result.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,84 +1001,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		64BB534F38ADD000D0EA7466F0DF71E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ACEF3DBED1410F6EC3F7A8973494EC80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E92355A519E73CDE04E3DFB91B63653 /* WPModuleNetwork.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Result-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
-				PRODUCT_MODULE_NAME = WPModuleNetwork;
-				PRODUCT_NAME = WPModuleNetwork;
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -546,7 +1020,7 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -594,21 +1068,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B025279041FA9369ED64C11FCDF918FD /* Debug */ = {
+		33D6424E2F7E9637AE3D25AF2DA4D4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E92355A519E73CDE04E3DFB91B63653 /* WPModuleNetwork.xcconfig */;
+			baseConfigurationReference = 5FE463D3FD7F900AC308D3782875625D /* WPModuleNetwork.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -621,7 +1098,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
 				PRODUCT_MODULE_NAME = WPModuleNetwork;
@@ -629,14 +1106,186 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B03A8878F2FF8F68BB7FFA6085B6504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A3AE7507AAB1C3B05AF5CEF602AFB8 /* WPModuleNetwork.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPModuleNetwork/WPModuleNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPModuleNetwork/WPModuleNetwork.modulemap";
+				PRODUCT_MODULE_NAME = WPModuleNetwork;
+				PRODUCT_NAME = WPModuleNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		5DA7154629059118190A029DB1CA8D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A359D2AF63F78B31EA4F7A7BA21ED1F /* Moya.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moya/Moya-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Moya/Moya.modulemap";
+				PRODUCT_MODULE_NAME = Moya;
+				PRODUCT_NAME = Moya;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8931A59F2ECEBA2DF071ACBB2DB56081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7929311077EB31221FE3818F01E684 /* Pods-WPModuleNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2FCDE33994CBB191FCD34324FEA88A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2917F78F721E79CE763BA0009E5578B /* Pods-WPModuleNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBBCAC3DEB3B8A6E9F5CC41631970709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3110681E06E45CFB6E4C9D644E88B4B /* Pods-WPModuleNetwork_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Tests/Pods-WPModuleNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -687,7 +1336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -700,11 +1349,11 @@
 			};
 			name = Debug;
 		};
-		B940AF585AD93972065AE25C1417530F /* Debug */ = {
+		DDD77B4F8954885562955A1A826ED540 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2917F78F721E79CE763BA0009E5578B /* Pods-WPModuleNetwork_Example.debug.xcconfig */;
+			baseConfigurationReference = A350DEBAF13B0849848F1D0A1F2EE129 /* Alamofire.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,24 +1363,121 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WPModuleNetwork_Example/Pods-WPModuleNetwork_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F41F0DBC5C707E16F79EDBB75D631346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73ED20540610761C4CC515C70295E046 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F444FBE4F050D89082AEB85D2668A192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB61A7AF0E2AA14C9E9BE38476B89794 /* Result.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Result-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4EF3B7357427FEAF3AD6C3CB51A3B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9422E600A2A88053774311F7822DB0BB /* Moya.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moya/Moya-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Moya/Moya.modulemap";
+				PRODUCT_MODULE_NAME = Moya;
+				PRODUCT_NAME = Moya;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -739,8 +1485,26 @@
 		0E82A7CBE93D56D92A6BCB1DA8FD1722 /* Build configuration list for PBXNativeTarget "Pods-WPModuleNetwork_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64BB534F38ADD000D0EA7466F0DF71E9 /* Debug */,
-				58EED532E4E003FEA7FB889B3B7C002F /* Release */,
+				DBBCAC3DEB3B8A6E9F5CC41631970709 /* Debug */,
+				8931A59F2ECEBA2DF071ACBB2DB56081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274B3753EA8DDEBA413D9F8A7B55B893 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B03A8878F2FF8F68BB7FFA6085B6504 /* Debug */,
+				33D6424E2F7E9637AE3D25AF2DA4D4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44660A171DBA1DB3BB008E6C53B844F2 /* Build configuration list for PBXNativeTarget "Pods-WPModuleNetwork_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FCDE33994CBB191FCD34324FEA88A5 /* Debug */,
+				02D3B91C28828F3D695B265C7145D18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,26 +1512,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C39F2B7990D8784F29EA22E1C58A4455 /* Build configuration list for PBXNativeTarget "WPModuleNetwork" */ = {
+		949B9916B267516F95BF1DD7F61D779A /* Build configuration list for PBXNativeTarget "Moya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B025279041FA9369ED64C11FCDF918FD /* Debug */,
-				ACEF3DBED1410F6EC3F7A8973494EC80 /* Release */,
+				5DA7154629059118190A029DB1CA8D0E /* Debug */,
+				F4EF3B7357427FEAF3AD6C3CB51A3B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBBC4F3546A1F0D3FB427466E789A59D /* Build configuration list for PBXNativeTarget "Pods-WPModuleNetwork_Example" */ = {
+		9C95D851FC08F433A945F5BB71836FF3 /* Build configuration list for PBXNativeTarget "Result" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B940AF585AD93972065AE25C1417530F /* Debug */,
-				0199E36DDF17BC824DF8F23D31B36D01 /* Release */,
+				F444FBE4F050D89082AEB85D2668A192 /* Debug */,
+				0C56BF9E3CED6DD890C44813E3CA1FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD77B4F8954885562955A1A826ED540 /* Debug */,
+				F41F0DBC5C707E16F79EDBB75D631346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

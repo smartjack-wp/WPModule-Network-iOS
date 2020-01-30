@@ -1,16 +1,33 @@
 PODS:
-  - WPModuleNetwork (0.1.0)
+  - Alamofire (4.9.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - WPModuleNetwork (0.4.1):
+    - Moya (~> 13.0)
 
 DEPENDENCIES:
   - WPModuleNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Result
 
 EXTERNAL SOURCES:
   WPModuleNetwork:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WPModuleNetwork: 8c1b838abb3f9602f214201acbf5215fe47864f7
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  WPModuleNetwork: 67c740eba6522b19a0591e8cbfada48285c0c345
 
 PODFILE CHECKSUM: 816d062aa8f15bd6062dba33ad2f8b365df37239
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.0.beta.2

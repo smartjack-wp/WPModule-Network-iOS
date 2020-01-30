@@ -1,22 +1,29 @@
 {
   "name": "WPModuleNetwork",
-  "version": "0.1.0",
-  "summary": "A short description of WPModuleNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/onemoonStudio/WPModuleNetwork",
+  "version": "0.4.1",
+  "summary": "SmartJack iOS Network Module",
+  "description": "WPNetworkModule is Network Module for iOS.",
+  "homepage": "https://github.com/smartjack-wp/WPModule-Network-iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "onemoonStudio": "sopthfg@gmail.com"
+    "onemoon(SmartJack.Ltd)": "onemoonstudio@gmail.com"
   },
   "source": {
-    "git": "https://github.com/onemoonStudio/WPModuleNetwork.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/smartjack-wp/WPModule-Network-iOS.git",
+    "tag": "0.4.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "WPModuleNetwork/Classes/**/*"
+  "source_files": "WPModuleNetwork/Classes/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Moya": [
+      "~> 13.0"
+    ]
+  },
+  "swift_version": "5.0"
 }
