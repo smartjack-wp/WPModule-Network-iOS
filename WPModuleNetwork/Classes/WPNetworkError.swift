@@ -7,13 +7,13 @@
 //
 
 import Foundation
-import Moya
 
 /// LabManager에서 사용되는 Network Error 정의 errorDescription 을 통해서 어떤 종류의 error 인지 확인하기 쉽다.
 public enum WPNetworkError: Error {
     case decodeErorr
     case badRequest(_ serverMessage: String)
-    case networkError(_ error: MoyaError)
+    case networkError(_ error: Error)
+    case simpleError(_ errorMessage: String = "")
     
     /// 개발자가 확인하는 메세지
     public var errorDescription: String {
@@ -25,8 +25,10 @@ public enum WPNetworkError: Error {
         case .networkError(let error):
             return """
             Network Erorr 가 발생하였습니다. Error log 를 확인해주세요.
-            \(error.errorDescription ?? "description is nil")
+            \(error.localizedDescription ?? "description is nil")
             """
+        case .simpleError(let message):
+            return message
         }
     }
     
