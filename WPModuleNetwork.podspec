@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'WPModuleNetwork'
-  s.version = '1.1.0'
+  s.version = '1.1.1'
   s.summary = 'SmartJack iOS Network Module'
   s.description = 'WPNetworkModule is Network Module for SmartJack iOS Team.'
   s.homepage = 'https://github.com/smartjack-wp/WPModule-Network-iOS'
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   
-  s.dependency 'Moya', '~> 13.0'
+  s.dependency 'Moya', '~> 14.0'
   
 end
