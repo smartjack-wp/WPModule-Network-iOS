@@ -58,8 +58,6 @@ extension WPNetworkProvider {
                     if decodedData.apiResultCode == 0 { // 성공
                         completion(.success(decodedData))
                     } else { // bad request
-                        print("description => \(result.description)")
-                        print("debug description => \(result.debugDescription)")
                         print("api code => \(decodedData.apiResultCode)")
                         print("message => \(decodedData.resultMessage)")
                         completion(.failure(.badRequest(decodedData.resultMessage)))
