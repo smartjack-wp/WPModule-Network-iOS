@@ -8,7 +8,6 @@
 
 import Foundation
 import Moya
-import Result
 
 /// LabManager 에서 사용되는 공통적인 Provider Protocol 이며 공통적으로 사용되는 함수들을 정의
 public protocol WPNetworkProvider {
