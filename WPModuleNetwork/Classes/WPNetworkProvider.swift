@@ -32,11 +32,13 @@ extension WPNetworkProvider {
     /// # networkActivityPlugin에 사용되는 클로저이다.
     var networkActivityClosure: NetworkActivityPlugin.NetworkActivityClosure {
         let closure: NetworkActivityPlugin.NetworkActivityClosure = { change, _ in
-            switch change {
-            case .began:
-                UIApplication.shared.isNetworkActivityIndicatorVisible = true
-            case .ended:
-                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            DispatchQueue.main.async {
+                switch change {
+                case .began:
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = true
+                case .ended:
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                }
             }
         }
         return closure
