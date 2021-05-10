@@ -1,8 +1,8 @@
 {
   "name": "WPModuleNetwork",
-  "version": "0.4.4",
+  "version": "1.1.4",
   "summary": "SmartJack iOS Network Module",
-  "description": "WPNetworkModule is Network Module for iOS.",
+  "description": "WPNetworkModule is Network Module for SmartJack iOS Team.",
   "homepage": "https://github.com/smartjack-wp/WPModule-Network-iOS",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/smartjack-wp/WPModule-Network-iOS.git",
-    "tag": "0.4.4"
+    "tag": "1.1.4"
   },
   "platforms": {
     "ios": "11.0"
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "Moya": [
-      "~> 13.0"
+      "~> 14.0"
     ]
   },
   "swift_version": "5.0"
