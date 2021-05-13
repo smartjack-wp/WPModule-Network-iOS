@@ -50,7 +50,7 @@
 		74A86BEF20B34699FD2F43A78DC8AF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB77BB7864AFB75D61B882D339F004D6 /* Foundation.framework */; };
 		74B47F84109C44A13D5A90A0751D195C /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C40D50E450441482256EB65AF8C38F /* Cancellable.swift */; };
 		77025F08264D126400E6BE4B /* WPResponseHandlingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77025F05264D126400E6BE4B /* WPResponseHandlingError.swift */; };
-		77025F09264D126400E6BE4B /* WPHttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77025F06264D126400E6BE4B /* WPHttpStatus.swift */; };
+		77025F09264D126400E6BE4B /* WPHttpStatusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77025F06264D126400E6BE4B /* WPHttpStatusError.swift */; };
 		7797EFE4F02AE03874050CD9B5FBB9E0 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DB57D7ED228545E0960673C9DD3E7 /* Response.swift */; };
 		7CE0911040FB99158182B6131E9BA60A /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1BE6EECE99B53C2C3A215A7C4A2801 /* MoyaProvider.swift */; };
 		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD12EE41184AA753D4ADE1998853727 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,7 +189,7 @@
 		766D77DED8A0788C3CCD996A6CE83603 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		77015E119A6AAFE1676D86AF58CCCF05 /* MoyaProvider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Internal.swift"; path = "Sources/Moya/MoyaProvider+Internal.swift"; sourceTree = "<group>"; };
 		77025F05264D126400E6BE4B /* WPResponseHandlingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPResponseHandlingError.swift; sourceTree = "<group>"; };
-		77025F06264D126400E6BE4B /* WPHttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPHttpStatus.swift; sourceTree = "<group>"; };
+		77025F06264D126400E6BE4B /* WPHttpStatusError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPHttpStatusError.swift; sourceTree = "<group>"; };
 		7C72DF0DF0753746734CECB7DE24E847 /* Pods-WPModuleNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPModuleNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		826191C70FC51A248C9E3A1A460E2CA3 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		83BA3674AAAA0E4C35DFE7713BC7EFDF /* Pods-WPModuleNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPModuleNetwork_Example.modulemap"; sourceTree = "<group>"; };
@@ -434,7 +434,7 @@
 		77025F04264D126400E6BE4B /* WPError */ = {
 			isa = PBXGroup;
 			children = (
-				77025F06264D126400E6BE4B /* WPHttpStatus.swift */,
+				77025F06264D126400E6BE4B /* WPHttpStatusError.swift */,
 				77025F05264D126400E6BE4B /* WPResponseHandlingError.swift */,
 			);
 			name = WPError;
@@ -827,7 +827,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77025F09264D126400E6BE4B /* WPHttpStatus.swift in Sources */,
+				77025F09264D126400E6BE4B /* WPHttpStatusError.swift in Sources */,
 				DEEC8ABAF259A510A408BDDB7D6BF684 /* ServerResponse.swift in Sources */,
 				E9DFDD925B55BD43347513ED4B904C9B /* ServerResponseProtocol.swift in Sources */,
 				CEF3B66F9A3CA01D97722987FE5B7A75 /* WPModuleNetwork-dummy.m in Sources */,

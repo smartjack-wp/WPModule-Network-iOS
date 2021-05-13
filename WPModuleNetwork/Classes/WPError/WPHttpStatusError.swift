@@ -1,5 +1,5 @@
 //
-//  WPHttpStatus.swift
+//  WPHttpStatusError.swift
 //  WPModuleNetwork
 //
 //  Created by AhnSangHoon on 2021/05/10.
