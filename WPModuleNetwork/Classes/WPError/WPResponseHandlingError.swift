@@ -16,24 +16,19 @@ public struct WPResponseHandlingError {
         self.errorCase = errorCase
         self.message = message
     }
-    
+
     var errorMessage: String {
-        switch errorCase {
-        case .decode:
-            fallthrough
-        case .jsonSerialization:
-            return errorCase.description + message
-        }
+        return errorCase.description + message
     }
 }
 
 /// Response를 Handling하는 과정에서 발생할 수 있는 Error Case
 public enum WPResponseHandling {
-    /// # decode중 발생하는 에러
+    /// decode중 발생하는 Error
     case decode
-    /// # jsonSerialization중 발생하는 에러
+    /// jsonSerialization중 발생하는 Error
     case jsonSerialization
-    
+
     var description: String {
         switch self {
         case .decode:
