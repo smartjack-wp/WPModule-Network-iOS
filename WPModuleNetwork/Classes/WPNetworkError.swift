@@ -16,8 +16,6 @@ public enum WPNetworkError: Error {
     case responseHandling(error: WPResponseHandlingError)
     /// 서버에서 응답 코드가 0이 아닌 코드 Error
     case server(_ code: Int, _ message: String)
-    /// 서버에서 응답 코드가 0이 아닌 코드들에 대한 처리가 필요한 Error
-    case serverWithResponseError(_ error: WPServerResponseError)
     /// 명시되지 않은 Error의 임시 처리를 위한 Error
     case other(_ errorMessage: String = "")
     
@@ -25,13 +23,11 @@ public enum WPNetworkError: Error {
     public var errorDescription: String {
         switch self {
         case .httpStatus(let error):
-            return "\(error.code): \(error.status.message)"
+            return error.errorMessage
         case .responseHandling(let error):
             return error.errorMessage
         case .server(let code, let message):
             return "\(code)" + message
-        case .serverWithResponseError(let error):
-            return error.message
         case .other(let message):
             return message
         }
