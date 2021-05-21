@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'WPModuleNetwork'
-  s.version = '1.1.4'
+  s.version = '2.0.0'
   s.summary = 'SmartJack iOS Network Module'
   s.description = 'WPNetworkModule is Network Module for SmartJack iOS Team.'
   s.homepage = 'https://github.com/smartjack-wp/WPModule-Network-iOS'
