@@ -18,7 +18,7 @@ public struct WPResponseHandlingError {
     }
 
     var errorMessage: String {
-        return errorCase.description + message
+        return "WPResponseHandlingError: \(errorCase.description)\n" + message
     }
 }
 

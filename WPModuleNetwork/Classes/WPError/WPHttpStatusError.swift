@@ -65,7 +65,7 @@ public enum WPHttpStatus {
             return .redirection
         case 400..<500:
             return .badRequestError
-        case _ where code > 500:
+        case ...500:
             return .serverSideError
         default:
             return .other
