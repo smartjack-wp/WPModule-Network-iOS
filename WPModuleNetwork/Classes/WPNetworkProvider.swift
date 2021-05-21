@@ -62,21 +62,17 @@ extension WPNetworkProvider {
                     } else { // bad request
                         print("api code => \(decodedData.apiResultCode)")
                         print("message => \(decodedData.resultMessage)")
-                        completion(.failure(.badRequest(decodedData.resultMessage)))
+                        completion(.failure(.server(decodedData.apiResultCode, decodedData.resultMessage)))
                     }
-                }else {
-                    completion(.failure(.badRequest(dic?["msg"] as? String ?? "Network에서 Error가 발생하였습니다")))
+                } else {
+                    completion(.failure(.server(dic?["code"] as? Int ?? 9999, dic?["msg"] as? String ?? "Network에서 Error가 발생하였습니다")))
                 }
             } catch {
-                // decoding 에 실패한 경우
-                print(WPNetworkError.decodeErorr.errorDescription)
-                print(String(data: responseData.data, encoding: .utf8) ?? "")
-                completion(.failure(.decodeErorr))
+                completion(.failure(.responseHandling(error: .init(.decode, error.localizedDescription + String(decoding: responseData.data, as: UTF8.self)))))
             }
         case .failure(let moyaError):
             // 응답이 제대로 들어오지 않은 경우
-            print(WPNetworkError.networkError(moyaError))
-            completion(.failure(.networkError(moyaError)))
+            completion(.failure(.other(moyaError.localizedDescription)))
         }
     }
 }
