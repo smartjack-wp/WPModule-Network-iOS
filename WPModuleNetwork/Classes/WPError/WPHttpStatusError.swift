@@ -12,7 +12,7 @@ public struct WPHttpStatusError {
     public let code: Int
     public let status: WPHttpStatus
     
-    init(_ code: Int, _ status: WPHttpStatus) {
+    public init(_ code: Int, _ status: WPHttpStatus) {
         self.code = code
         self.status = status
     }
@@ -55,7 +55,7 @@ public enum WPHttpStatus {
         }
     }
 
-    static func get(from code: Int) -> WPHttpStatus {
+    public static func get(from code: Int) -> WPHttpStatus {
         switch code {
         case 100..<200:
             return .conditionalResponse
