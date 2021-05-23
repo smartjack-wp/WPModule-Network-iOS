@@ -27,7 +27,7 @@ public enum WPNetworkError: Error {
         case .responseHandling(let error):
             return error.errorMessage
         case .server(let code, let message):
-            return "\(code)" + message
+            return "\(code): " + message
         case .other(let message):
             return message
         }
